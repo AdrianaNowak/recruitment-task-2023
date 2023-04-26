@@ -2,19 +2,21 @@
 
 ## How to run:
 
-in base directory run following commands:
+In base directory run following commands:
 - npm install
 - npm start
 
-in second terminal window, in resources directory run following command:
+In second terminal window in resources directory run following command:
 json-server --watch example.json --p 8080
 
 ## Important!
+
 Due to json-server requirements, I've made a modification to the example.json file itself. I've nested its content inside '"definition": {}'.
 I've also modified one property in model file:
 referenceElementKey in Action, as word "Key" used to be lowerCase.
 
 ## Outcome
+
 Provided solution when run will render:
 ![image](https://user-images.githubusercontent.com/124674764/234623742-62cfb610-0927-49b8-8054-40abb50d91be.png)
 
