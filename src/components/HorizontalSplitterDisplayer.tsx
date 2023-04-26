@@ -1,6 +1,7 @@
 import React from 'react';
 import { HorizontalSplitter } from '../models/model';
 import DynamicDisplayer from './DynamicDisplayer';
+
 function HorizontalSplitterDisplayer({
   elements,
   elementKey,

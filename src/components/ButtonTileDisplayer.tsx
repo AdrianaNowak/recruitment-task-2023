@@ -12,6 +12,7 @@ function ButtonTileDisplayer({ action, text }: ButtonTile) {
       domElement.classList.add(action.value[propertyName]);
     }
   };
+
   useEffect(() => {
     setDomElement(document.getElementById(action?.referenceElementKey));
   }, []);
